@@ -1,8 +1,9 @@
 docs/*
 test/*
 build/*
-.local-chromium
 .eslintrc
 .vscode
+.idea
 .github
-release.sh
+.gitignore
+*.tgz
