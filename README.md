@@ -2,6 +2,20 @@
 
 This is a small plugin to add a delay for each run step for Taiko test runner.
 
+## Packaging
+
+Use:
+
+```
+npm pack
+```
+
+to pack this repo into an NPM package. Then that package can be installed using:
+
+```
+npm install /path/to/taiko-delay-1.0.0.tgz
+```
+
 ## Usage
 
 1. Install the plugin with npm.
