@@ -21,5 +21,9 @@ files.
    ```
    export TAIKO_DELAY_SECONDS=<time in seconds>
    ```
+   For example, setting the following will delay each step by 2 seconds:
+   ```
+   export TAIKO_DELAY_SECONDS=2.0
+   ```
 
 4. Run your taiko tests.
