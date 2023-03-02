@@ -18,7 +18,7 @@ console.log(`delaySeconds = ${delaySeconds}`);
 var clientHandler = async (taiko, eventHandler) => {
   _eventHandler = eventHandler;
   _openBrowser = taiko.openBrowser;
-  console.log("overrode openBrowser with delay-capable openBrowser");
+  console.log("overrode openBrowser with delay enabled method.");
 };
 
 var delayedOpenBrowser = async (options = {}) => {

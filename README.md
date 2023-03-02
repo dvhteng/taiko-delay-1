@@ -1,24 +1,17 @@
 # taiko-delay
 
-This is a small plugin to add a delay for each run step for Taiko test runner.
-
-## Packaging
-
-Use:
-
-```
-npm pack
-```
-
-to pack this repo into an NPM package. Then that package can be installed using:
-
-```
-npm install /path/to/taiko-delay-1.0.0.tgz
-```
+This is a small plugin to add a delay for each run step for
+[Taiko](https://taiko.dev/). This is useful if the delay time needs to be
+controlled from an environment variable set once, instead of adding the
+`observe` and `observeTime` options for `openBrowser()` in multiple source
+files.
 
 ## Usage
 
 1. Install the plugin with npm.
+   ```
+   npm install taiko-delay
+   ```
 
 2. Enable the plugin in your list of taiko plugins:
    ```
@@ -29,4 +22,4 @@ npm install /path/to/taiko-delay-1.0.0.tgz
    export TAIKO_DELAY_SECONDS=<time in seconds>
    ```
 
-4. Run the taiko test.
+4. Run your taiko tests.
